@@ -25,7 +25,7 @@ test('check bottom', () => {
 });
 
 test('check left', () => {
-  expect(calcTileType(9, 8)).toBe('left');
+  expect(calcTileType(16, 8)).toBe('left');
 });
 
 test('check right', () => {
